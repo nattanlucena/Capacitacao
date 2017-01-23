@@ -39,8 +39,8 @@ function initRoutes(app) {
                 });
                 return;
             }
-
-            response.json(docs);
+//
+            response.json(results);
         });
     });
 
@@ -89,6 +89,8 @@ function initRoutes(app) {
     });
 
     app.post('/users', function (request, response) {
+        console.log(request.headers);
+        console.log(request.body);
         var doc = request.body;
         db.collection('Users').insertOne(doc)
             .then(function (result) {
