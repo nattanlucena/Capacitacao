@@ -1,0 +1,17 @@
+{
+  "name": "capacitacao",
+  "version": "1.0.0",
+  "description": "Capacitação",
+  "main": "app.js",
+  "scripts": {
+    "run": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "method-override": "^2.3.7",
+    "mongodb": "^2.2.21"
+  }
+}
